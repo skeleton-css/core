@@ -423,6 +423,10 @@
     box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.2);
 }
 
+.skl-border-0 {
+    border: none;
+}
+
 .skl-border-1 {
     border-width: 1px;
     border-style: solid;
@@ -445,7 +449,7 @@
 
 .skl-border-left-1 {
     border-left-width: 1px;
-    border-bottom-style: solid;
+    border-left-style: solid;
 }
 
 .skl-h-scroll {
@@ -494,7 +498,7 @@
     margin-right: 15px;
 }
 
-.skl-flex-grid-item-2:nth-of-type(n+1) {
+.skl-flex-grid-item-2:nth-of-type(n+3) {
     margin-top: 15px;
 }
 
